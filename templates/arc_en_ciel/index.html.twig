@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>TP 1 Symfony</h1>
+    <p>Ennoncé exo 1: </p>
+    <ul>
+        <li>Créer une page dateTime</li>
+        <li>Créer une page Couleur Bleu</li>
+        <li>Créer une page Couleur Rouge</li>
+    </ul>
+
+    <p>Ennoncé exo 2: </p>
+    <ul>
+        <li>Utiliser l'héritage pour mettre le menu dans un seul fichier mais visible sur les 2 pages.</li>
+        <li>Intégrer bootstrap (CDN).</li>
+        <li>Pour la page /color afficher le mot de la même couleur dynamiquement ("bleu" en bleu) en CSS.</li>
+        <li>Pour la couleur rouge afficher en plus le Message : "Attention risque de virus" en rouge.</li>
+        <li>Dans  le  menu  rajouter  un  lien  vers  les  pages  couleurs  :  red,  blue,  yellow,  pink,  violet, salmon en utilisant un foreach.</li>
+        <li>Mettre en souligné l'url active.</li>    
+    </ul>
+</div>
+{% endblock %}
